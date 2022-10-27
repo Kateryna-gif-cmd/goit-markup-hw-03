@@ -8,34 +8,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./сss/style.css">
 </head>
-<body>
-<header>
-    <nav class="header-nav">
-        <a class="logo" href="./index.html">Web<span class="logo-last-part">Studio</span></a>
+<body class="page-body">
+<header class="page-header">
+    <div class="container">
+        <nav class="header-nav">
+            <a class="logo" href="./index.html">Web<span class="logo-last-part">Studio</span></a>
+            <ul class="header-list list">
+                <li class="header-list-item"><a class="header-list-link link header-link-studio" href="./index.html">Студія</a></li>
+                <li class="header-list-item"><a class="header-list-link link" href="./portfolio.html">Портфоліо</a></li>
+                <li class="header-list-item"><a class="header-list-link link" href="./index.html">Контакти</a></li>
+            </ul>
+        </nav>
         <ul class="header-list list">
-            <li class="header-list-item"><a class="header-list-link link header-link-studio" href="./index.html">Студія</a></li>
-            <li class="header-list-item"><a class="header-list-link link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="header-list-item"><a class="header-list-link link" href="./index.html">Контакти</a></li>
+            <li>
+                <a class="header-mail-link header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a class="header-tel-link header-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
         </ul>
-    </nav>
-    <ul class="header-list list">
-        <li>
-            <a class="header-mail-link header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-            <a class="header-tel-link header-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-    </ul>
+    </div>
+
 </header>   
-<main>
-    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-
-    <button class="hero-button button" type="button">Замовити послугу</button>
-
+<main class="page-main">
+    <div class="container">
+        <div class="hero-description">
+            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="hero-button" type="button">Замовити послугу</button>
+        </div>
+        </div>
     <section class="hero">
-        <h2 class="visually-hidden">Особливості</h2>
+        <div class="container">
+            <h2 class="visually-hidden">Особливості</h2>
         <ul class="hero-list list">
             <li class="hero-list-item">
                 <h3 class="hero-text-title" >УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -57,8 +64,12 @@
                  <p class="hero-paragraph-title">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>  
             </li>
         </ul>
+        </div>
+        
     </section>
-    <h2 class="work-tittle">Чим ми займаємося</h2>
+    <section class="work">
+        <div class="container">
+            <h2 class="work-tittle">Чим ми займаємося</h2>
     <ul class="work-list list">
         <li class="work-list-item list">
             <img class="work-photo-img" src="./img/about1.jpg" alt="picture about service" width="370">
@@ -69,9 +80,12 @@
         <li class="work-list-item list">
             <img class="work-photo-img" src="./img/about3.jpg" alt="picture about service" width="370">
         </li>
-    </ul>
+    </ul>  
+        </div>
+    </section>
     <section class="about">
-        <h2 class="about-title">Наша команда</h2>
+        <div class="container">
+            <h2 class="about-title">Наша команда</h2>
       
         <ul class="about-list list">
             <li class="about-list-item list">
@@ -95,10 +109,12 @@
                 <p class="about-text">UI Designer</p>
             </li>
         </ul>
+        </div>
     </section>
     </main> 
-<footer>
+<footer class="page-footer">
         <address class="footer-address">
+            <div class="container">
             <a class="logo-footer" href="/">Web<span class="logo-footer-part">Studio</span></a>
         <ul class="footer-list list">
             <li class="footer-list-item">
@@ -112,6 +128,7 @@
                 <a class="footer-tel-link footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+    </div>
     </address> 
 </footer>
 </body>
