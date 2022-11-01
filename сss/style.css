@@ -5,7 +5,7 @@
   --accent-color:  #2196F3;
   --button-first-color: #FFFFFF;
   --button-second-color: #2196F3;
-  --body-color--: #F5F5F5;
+  --body-color--: white;
   --section-color--:  #F5F4FA;
 }
 body {
@@ -210,17 +210,15 @@ font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30/16);
-  text-align: center;
-  color: var(--button-first-color);
+  
   cursor: pointer;
-  background: var(--button-second-color);
+ 
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
   border-radius: 4px;
   margin: 0 auto;
   display: block;
-  min-width: 200px;
-  min-height: 50px;
+
   padding: 10px 32px;
 
 }
@@ -237,9 +235,8 @@ font-family: inherit;
     clip-path: inset(50%);
     margin: -1px;
 }
-.next {
-  background-color: var(--body-color--);
-}
+
+
 .next-list {
   display: flex;
   margin-left: auto;
@@ -441,25 +438,19 @@ font-family: inherit;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    min-width: 73px;
-    flex-wrap: wrap;
+  
     gap: 8px;
   
 }
 
-.portfolio-list  {
-font-size: 16px;
-line-height: calc(26/16);
-border-radius: 4px;
-color: #212121;
-background: #F5F4FA;
-}
+
+
+
 .portfolio-button {
 color: #212121;
 background: #F5F4FA;
-padding: 6px 22px;
-justify-content: center;
-min-width: 73px;
+
+
 }
 
 .current-button {
