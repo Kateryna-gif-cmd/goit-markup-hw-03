@@ -346,7 +346,7 @@ font-family: inherit;
     border-radius: 0px 0px 4px 4px;
   }
   .about-photo-img {
-  margin-bottom: 30px;
+  
   }
   
 .about-after-title {
@@ -451,10 +451,9 @@ font-family: inherit;
     display: flex;
     justify-content: center;
     gap: 8px;
-   
     
-  
-}
+  }
+
 
 
 
@@ -463,12 +462,6 @@ font-family: inherit;
 color: #212121;
 background: #F5F4FA;
 border-radius: 4px;
-max-width: auto;
-max-height: 38px;
-
-
-
-
 
 }
 
